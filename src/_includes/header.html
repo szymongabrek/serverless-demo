@@ -1,0 +1,66 @@
+<style>
+  .header {
+    background: var(--black);
+    font-family: var(--font-family);
+    position: relative;
+  }
+  .header .logo-wrapper {
+    align-items: center;
+    display: flex;
+    height: 56px;
+    justify-content: flex-start;
+    padding: 0 1rem;
+    position: relative;
+    width: 100vw;
+  }
+
+  .header .home-link {
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 900;
+    margin-left: 0.75rem;
+    position: relative;
+    text-decoration: none;
+    z-index: 15;
+  }
+
+  .lwj-demo-header .top-bar {
+    animation: gradient-roll 20s linear infinite alternate;
+    background-image: var(--lwj-gradient);
+    background-size: 200%;
+    border-bottom: 0.5px solid var(--light-gray);
+    height: 9px;
+    position: relative;
+    top: 100%;
+    width: 100vw;
+    z-index: 5;
+  }
+
+  .header .top-bar::before,
+  .header .top-bar::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100vw;
+  }
+
+  .header .top-bar::before {
+    bottom: 1px;
+    height: 0.5px;
+    background-color: var(--light-gray);
+  }
+
+  .header .top-bar::after {
+    bottom: 0;
+    height: 1px;
+    background-color: var(--black);
+  }
+</style>
+
+<header class="header">
+  <div class="logo-wrapper">
+    <a href="/" rel="home" class="home-link"> {{ siteData.name }} </a>
+  </div>
+
+  <div class="top-bar"></div>
+</header>
