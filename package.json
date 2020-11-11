@@ -2,7 +2,7 @@
   "name": "serverless",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
+  "license": "CC-BY-NC-SA-4.0",
   "author": "Szymon Gabrek",
   "scripts": {
     "dev": "eleventy --serve",
