@@ -1,11 +1,12 @@
 # Serverless Functions using netlify
 
-This is the source code for a demonstration of serverless functions using netlify
+This is the source code for a demonstration of serverless functions using Netlify
 
 ## Resources
 
-- [Netlify Functions](https://www.netlify.com/products/functions/?utm_source=fem-sls&utm_medium=functions-jl&utm_campaign=devex)
-- [Netlify Identity](https://docs.netlify.com/visitor-access/identity/?utm_source=fem-sls&utm_medium=functions-jl&utm_campaign=devex)
+- [Eleventy](https://www.11ty.dev/)
+- [Netlify Functions](https://www.netlify.com/products/functions/)
+- [Netlify Identity](https://docs.netlify.com/visitor-access/identity/)
 
 ## License
 
