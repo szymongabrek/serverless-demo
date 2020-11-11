@@ -1,6 +1,6 @@
 # Serverless Functions using netlify
 
-This is the source code for a domanstrating of netlify serverless functions
+This is the source code for a demonstration of serverless functions using netlify
 
 ## Resources
 
